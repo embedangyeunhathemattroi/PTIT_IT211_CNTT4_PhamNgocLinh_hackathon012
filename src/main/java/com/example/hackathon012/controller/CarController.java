@@ -44,7 +44,7 @@ public class CarController {
     @DeleteMapping("/{id}")
     public ResponseEntity<String> delete(@PathVariable Long id) {
         carService.delete(id);
-        return ResponseEntity.ok("Xóa thông tin thuốc thành công.");
+        return ResponseEntity.ok("Xóa thông tin thành công.");
     }
 
     @GetMapping
